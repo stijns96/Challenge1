@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>SpaceX</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="css/main.min.css">
+        <link rel="stylesheet" type="text/css" href="css/phone.css">
+        <link rel="stylesheet" type="text/css" href="css/tablet.css">
+        <link rel="stylesheet" type="text/css" href="css/desktop.css">
+        <link rel="stylesheet" type="text/css" href="css/imac.css">
+        
+        <!--JAVA-->
+        <script src="java/main.js"></script>
+	</head>
+
+	<body>
+        <header id="main-header">
+            <h1>SpaceX</h1>
+        </header>
+        
+        <video autoplay muted loop id="myVideo">
+            <source src="videos/Planet_Earth_Beneath_The_Milky_Way_4K.mp4" type="video/mp4">
+        </video>
+        
+        <main id="main-main">
+            <section>
+                <div class="row">
+                    <article id="countdown">
+                        <h1>Landing in</h1>
+                        <div id="clockdiv">
+                            <div>
+                                <span class="days"></span>
+                                <div class="smalltext">Dagen</div>
+                            </div>
+                            <div>
+                                <span class="hours"></span>
+                                <div class="smalltext">Uren</div>
+                            </div>
+                            <div>
+                                <span class="minutes"></span>
+                                <div class="smalltext">Minuten</div>
+                            </div>
+                            <div>
+                                <span class="seconds"></span>
+                                <div class="smalltext">Seconden</div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="row">
+                    <article id="brandstof">
+                        <h2>Gebruikte Brandstof</h2>
+                        <main>
+                            <div id="chartContainer1" style="height: 250px;"></div>
+                        </main>
+                    </article>
+                </div>
+                <div class="row">
+                    <article id="water">
+                        <h2>Watervoorraad</h2>
+                        <main>
+                            <div id="chartContainer2" style="height: 250px;"></div>
+                        </main>
+                    </article>
+                    <article id="eten">
+                        <h2>Voedselvoorraad</h2>
+                        <main>
+                            <div id="chartContainer3" style="height: 250px;"></div>
+                        </main>
+                    </article>
+                </div>
+                <div class="row">
+                    <article id="g-kracht">
+                        <h2>Actuele G-kracht</h2>
+                        <main>
+                            <div id="chartContainer4" style="height: 300px; width:100%;"></div>
+                        </main>
+                    </article>
+                </div>
+            </section>
+        </main>
+        
+        <footer id="main-footer">
+            
+        </footer>
+        
+        
+	</body>
+    
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</html>

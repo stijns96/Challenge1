@@ -1,0 +1,33 @@
+@media only screen and (min-width:1201px) {
+    
+    #main-main {
+        max-width: 1200px;
+        min-width: 1200px;
+        margin: auto;
+    }
+    
+    #main-main section .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #brandstof {
+        width: 100%;
+    }
+    
+    #water {
+        width: 50%;
+        margin-right: 12.5px;
+    }
+    
+    #eten {
+        width: 50%;
+        margin-left: 12.5px;
+    }
+    
+    #g-kracht {
+        width: 100%;
+    }    
+}

@@ -1,0 +1,31 @@
+@media only screen and (min-width: 601px) and (max-width:900px) {
+    #main-main section .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #countdown h1 {
+        line-height: 125px;
+        font-size: 55px;
+    }
+    
+    #brandstof {
+        width: 100%;
+    }
+    
+    #water {
+        width: 50%;
+        margin-right: 12.5px;
+    }
+    
+    #eten {
+        width: 50%;
+        margin-left: 12.5px;
+    }
+    
+    #g-kracht {
+        width: 100%;
+    }
+}
