@@ -1,4 +1,7 @@
 @media only screen and (min-width:1201px) {
+    html {
+        background-image: inherit;
+    }
     
     #main-main {
         max-width: 1200px;

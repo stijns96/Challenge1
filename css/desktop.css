@@ -1,4 +1,8 @@
 @media only screen and (min-width: 901px) and (max-width:1200px) {
+    html {
+        background-image: inherit;
+    }
+    
     #main-main section .row {
         display: flex;
         flex-direction: row;
