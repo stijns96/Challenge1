@@ -10,6 +10,19 @@
 	box-sizing:border-box
 }
 
+html {
+        height: 100%;
+        background-image: url(../fotos/earth_background_phone.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.25);
+}
+
 body
 {
 	color:#fff;
