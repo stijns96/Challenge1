@@ -6,9 +6,6 @@
         width: 100%;
     }
     
-    html:before {
-    }
-    
     #myVideo {
         display: none;
     }
